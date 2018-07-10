@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>playerInfos</key>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=629749078,3243902948&amp;fm=58</string>
+			<key>name</key>
+			<string>里奥·梅西</string>
+			<key>detail</key>
+			<string>技术出色，意识上佳，射术精湛</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2805040092,2821401950&amp;fm=58</string>
+			<key>name</key>
+			<string>罗纳尔多·路易斯·纳扎里奥·达·利马</string>
+			<key>detail</key>
+			<string>力量速度技术嗅觉为一体的前锋</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=569041535,3033081340&amp;fm=58</string>
+			<key>name</key>
+			<string>阿尔杰·罗本</string>
+			<key>detail</key>
+			<string>边路速度快，突破内切</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1014839166,2315308559&amp;fm=58</string>
+			<key>name</key>
+			<string>大卫·贝克汉姆</string>
+			<key>detail</key>
+			<string>传球精准，远射王，任意球专家</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=362172216,2128691208&amp;fm=58</string>
+			<key>name</key>
+			<string>齐内丁·齐达内</string>
+			<key>detail</key>
+			<string>脚法娴熟、大局观强、传射精妙</string>
+		</dict>
+	</array>
+</dict>
+</plist>

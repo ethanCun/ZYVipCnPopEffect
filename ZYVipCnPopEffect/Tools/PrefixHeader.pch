@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  ZYVipCnPopEffect
+//
+//  Created by chenzhengying on 2018/7/8.
+//  Copyright © 2018年 canzoho. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "TipCircle.h"
+#import "TipCircleManager.h"
+#import "NSObject+TopVc.h"
+#import "Players.h"
+#import <UIImageView+WebCache.h>
+#import <YYModel/YYModel.h>
+#import "TransitionManager.h"
+#import "UINavigationController+Transition.h"
+
+#define ZYAnimationDuration 0.5
+#define ZYFullWidth [UIScreen mainScreen].bounds.size.width
+#define ZYFullHeight [UIScreen mainScreen].bounds.size.height
+#define ZYCommonMargin 10
+#define ZYKeyWindow [UIApplication sharedApplication].keyWindow
+
+#define FloatWindowRadius 150
+#define CirCle1Width 20
+#define Circle2Width 16
+#define CircleLineWidth 2
+#define LineWidth 2
+
+#endif /* PrefixHeader_pch */
