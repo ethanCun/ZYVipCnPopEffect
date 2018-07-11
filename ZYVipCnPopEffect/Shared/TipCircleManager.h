@@ -26,6 +26,11 @@
  */
 @property (nonatomic, strong) FloatWindow *floatWindow;
 
+/**
+ 点击浮窗跳转的时候是否显示省略图
+ */
+@property (nonatomic, assign) BOOL wetherShowTipcircle;
+
 
 /**
  单击省略图

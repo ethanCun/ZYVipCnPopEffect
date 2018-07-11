@@ -15,4 +15,9 @@
  */
 @property (nonatomic, strong) PlayerDetail *player;
 
+/**
+ pop完成
+ */
+@property (nonatomic, copy) void (^finishPop)(void);
+
 @end

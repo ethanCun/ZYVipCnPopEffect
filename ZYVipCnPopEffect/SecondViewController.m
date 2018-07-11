@@ -34,6 +34,7 @@
 {
     [super viewWillAppear:animated];
     
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -41,6 +42,18 @@
     [super viewDidAppear:animated];
     
     self.navigationController.navigationBar.hidden = NO;
+    
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    
+    if (self.finishPop) {
+        
+        self.finishPop();
+    }
 }
 
 - (void)viewDidLoad {

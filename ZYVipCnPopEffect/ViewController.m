@@ -14,7 +14,6 @@
 
 @property (nonatomic, strong) Players *players;
 
-
 @end
 
 @implementation ViewController
@@ -40,12 +39,30 @@
     self.players = [Players yy_modelWithJSON:info];
 
     
+#pragma mark - 缩略图跳转
     [TipCircleManager shared].clickTipCircle = ^{
         
         SecondViewController *secondVc = [[SecondViewController alloc] init];
+    
+        //点击缩略图跳转的时候隐藏缩略图
+        [TipCircleManager shared].wetherShowTipcircle = NO;
+        
+        //push
         self.navigationController.transitionType = 1;
+        
+        //模型
         secondVc.player = [TipCircleManager shared].tipCircle.player;
+        
+        //开启自定义转场
         self.navigationController.customTransitionAnimationOpen = YES;
+        
+        //pop完成
+        secondVc.finishPop = ^{
+            
+            //显示缩略图
+            [TipCircleManager shared].wetherShowTipcircle = YES;
+        };
+        
         [self.navigationController pushViewController:secondVc animated:YES];
     };
 }

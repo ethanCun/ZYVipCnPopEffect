@@ -30,6 +30,20 @@
 
 static TipCircleManager *manager = nil;
 
+#pragma mark - setter
+- (void)setWetherShowTipcircle:(BOOL)wetherShowTipcircle
+{
+    _wetherShowTipcircle = wetherShowTipcircle;
+    
+    if (wetherShowTipcircle) {
+        
+        manager.tipCircle.hidden = NO;
+    }else{
+        
+        manager.tipCircle.hidden = YES;
+    }
+}
+
 #pragma mark - shared
 + (instancetype)shared
 {
